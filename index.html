@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-br">
+	<meta charset="utf-8">	
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<title>Git - Para que? Por que? e para quem?</title>
+</head>
+
+<body>
+	<section class="full-container page-1">
+		<div class="container">
+			<div class="input-central">
+				<form action="#" class="formTeste">
+					<div class="containerInput">
+						<label for="name" class="inptPlaceholder">Hey! Qual o seu nome?</label>
+						<input type="text" name="name" id="nome" class="inptTeste" />
+						<input type="submit" value="Vamos em frente!">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>	
+	<section class="full-container page-2">
+		<div class="container">
+			<div class="container-central">
+				<p>
+					Olá <span id="nome-aluno"></span>, aqui vamos aprender agora para que? por que? e para quem? o Git existe.
+				</p>
+				<a href="#" class="proximo first">Vamos lá!</a>
+			</div>
+		</div>
+	</section>
+	<section class="full-container page-3">
+		<div class="container">
+			<div class="content-left">
+				<img src="http://1.bp.blogspot.com/-Mp25vIEnazo/VNNvRNF5iWI/AAAAAAAAzNM/4viS2vc1blY/s1600/Super_Mario_World_(SNES)_13.gif" alt="">
+			</div>
+			<div class="content-rigth">
+				<p> Programar é como um divertido jogo de video-game, você começa no inicio, ultrapassa barreiras, vence etapas e, inevitavelmente, perde vidas. Mas nem sempre volta ao inicio após cada perda, existem etapas (checkpoints) que te dizem que até ali sua missão foi bem sucedida. No jogo esse checkpoint é uma cidade vencida no mapa a qual você pode sempre voltar, na programação, isso se chama "commit" e ele é possível graças ao controle de versão, ou seja, o Git!
+				</p>
+				<p> O commit é importante por que a programação é feita de mais erros que acertos, ao longo dessa jornada você fará muitos testes e nem todos funcionarão como o esperado e não há nada de errado com isso. Para te auxiliar nesses testes existe também o Git e agora vamos ver um pouco de como ele funciona.
+				</p>
+				<a href="#" class="proximo second">Vamos começar!</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="full-container page-4">
+		<div class="container">
+			<div class="content-left">
+				<img src="http://vignette2.wikia.nocookie.net/retrogame/images/f/f2/Super_Mario_Bros._Title_Screen.gif/revision/latest?cb=20110117222659" alt="">
+			</div>
+			<div class="content-right">
+				<p>
+					Para jogar um jogo é necessário ter duas coisas vitais, um console e o jogo, aqui eles são representados pelo seu computador, o console, e o jogo em si é o Git a ser instalado em sua máquina, o download dele pode ser feito aqui: <a href="https://git-for-windows.github.io/" target="_blank" id="linkGit">LINK PARA DOWNLOAD DO GIT</a>
+				</p>
+				<p>Após clicar no botão de download e efetuar a instalação (que consiste basicamente em apertar o "Next") você já terá o Git instalado em sua máquina e podemos dar inicio a diversão!
+				</p>
+				<a href="#" class="proximo third">Vamos lá!</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="full-container page-5">
+		<div class="container">
+			<div class="content-right">
+				<p>
+					Abaixo podemos ver um terminal, mas não se assustem não é nada assim que vocês farão com eles, a não ser que queiram entrar na Matrix, mas não acho que seja o caso, voltando, este é um terminal e assim como o navegador compreende o "idioma" HTML o terminal compreende o idioma "Unix", ou seja, linhas de comando que dizem a ele o que fazer, neste caso, pegar as versões feitas por você de seu site e salvar de maneira segura no GitHub.
+				</p>
+			</div>
+			<div class="content-left">
+				<img src="https://cesarmarcano.files.wordpress.com/2015/04/05349-vim-matrix.gif?w=812&h=538" alt="" / >
+
+				<h2>OLÁ TERMINAL EU QUERO FALAR COM VOCÊ!</h2>
+
+				<p>Calma ai! As coisas não são tão simples assim, infelizmente, embora o terminal esteja 100% pronto para ser seu amigo ele ainda não faz a menor ideia do que você está falando, para isso você precisa falar a mesma língua que ele, então vamos por partes:</p>
+
+				<h3>COISAS QUE O TERMINAL PODE FAZER:</h3>
+
+				<ul>
+					<li>Permitir que você navegue por ele entre pastas de seu computador;</li>
+					<li>Criar arquivos e pastas;</li>
+					<li>Indicar sua localização atual dentro das pastas;</li>
+					<li>Mostrar as pastas e arquivos dos seus diretórios (pastinhas criadas no Windows aquela "Nova Pasta")</li>
+				</ul>
+
+				<h3>COISAS QUE O TERMINAL <strong>NÃO</strong> PODE FAZER</h3>
+
+				<ul>	
+					<li>Dar conselhos amorosos;</li>
+					<li>Programar páginas web sozinho;</li>
+					<li>Ensinar o caminho para o curso Eu Programo;</li>
+					<li>Te tirar da cama em dias frios;</li>
+					<li>Mapa astral.</li>
+				</ul>
+
+				<h3>Ok! Se você entendeu o que o terminal pode fazer por você aqui embaixo estão listados algumas formas de você falar com ele:</h3>
+
+				<p>Em primeiro lugar abra seu terminal e digite: <span class="italic">pwd</span> (comando que mostra em que lugar do seu computador você está no momento). Ele ira retornar algo como:</p>
+				<img src="img/git-pwd.png" alt="">
+
+				<p>Em seguida digite <span class="italic">ls</span> e ele irá listar todas as pastas e arquivos do diretório em que você está, como pode ser visto abaixo:</p>
+				<img src="img/git-ls.png" alt="">
+
+				<p>Nessa lista acima podemos ver todos os diretórios de onde estamos, nele você deverá encontrar onde seu projeto está salvo e entrar nessa página, da mesma forma que você faria no seu computador navegando pelo Windows, porém, estamos no terminal e ele não tem setas e pastas com um layout bonitinho, ele entende que você querer entrar em uma pasta é feito através do comando <span class="italic">cd *Nome do diretório*</span> como pode ser visto abaixo:</p>
+				<img src="img/git-cd.jpg" alt="">
+				
+				<p>Após apertar o "Enter" o resultado será esse:</p>
+				<img src="img/git-cd-desk.jpg" alt="">
+
+				<p>Da mesma forma que foi possível entrar na pasta, também é possível voltar, digitando o comando cd seguido de dois pontos, ou seja <span class="italic">cd ..</span></p>
+				<img src="img/git-cd-voltar.jpg" alt="">
+
+				<p>Agora vamos criar a pasta do nosso projeto, usamos uma sequência de comandos. Primeiro <span class="italic">cd Desktop</span> para entrarmos na nossa pasta Desktop, ou seja, sua área de trabalho, local onde criaremos a pasta projeto. Depois vamos usar o comando <span class="italic">mkdir Projeto</span>, que criará a pasta Projeto na sua área de trabalho. E depois <span class="italic">cd Projeto</span> para entrar na sua nova pasta.</p>
+				<img src="img/git-cd-mkdir.jpg" alt="">
+
+				<a href="#" class="proximo fourth">Clique aqui para terminar.</a>
+			</div>
+		</div>
+	</section>
+	<section class="full-container page-6">
+		<div class="container">
+			<div class="content-left">
+				<img src="http://www.mariowiki.com/images/d/d1/Fireworks.gif" alt="">
+			</div>
+			<div class="content-right">
+				<p>Se você chegou até aqui merece não apenas os parabéns mas também merece saber que essa é só a primeira fase do universo da integração digital, mas vamos a algumas conclusões.
+				</p>
+				<h2>MAS PRA QUE TUDO ISSO?</h2>
+				<p>Saber o uso do terminal por linhas de comando é essencial para o desenvolvimento web, a primeira vista tudo isso pode parecer exagerado porque afinal de contas estamos apenas fazendo um pequeno site para o curso Eu Programo, mas as coisas não são bem assim, imagine-se em uma equipe multidisciplinar, ou onde seja necessário baixar os arquivos de seu projeto em uma máquina que não seja a mesma que você deu inicio a ele, ou ilustrando o caso aqui, que você tenha feito uma página muito legal durante o curso e queira dar continuidade a ela na sua casa, como você faria isso? Provavelmente se enviaria o arquivo por email, subiria ele na nuvem, ou até mesmo levaria ele em um pen drive, o terminal junto com o git automatizam esse processo e evitam duplicatas de arquivos, uma vez que ao invés de subir um novo arquivo toda vez que você faz uma atualização nele esse processo permite a atualização dele.</p>
+				<h2>POR QUE?</h2>
+				<p>O uso do git, como veremos no próximo capítulo dessa odisséia, é algo comum no universo profissional da programação, não se atentem a ideia de que se o projeto é pequeno não há necessidade de "tudo isso", lembre-se o projeto que hoje é pequeno amanhã pode ser um portal gigantesco de notícias, memorizem isso: "ORGANIZAÇÃO É IMPORTANTE" e ferramentas como o Git tornam ela mais fácil.</p>
+				<h2>PRA QUEM?</h2>
+				<p>Para toda e qualquer pessoa que queira desenvolver um projeto para web, neste caso, é sempre preciso pensar em processos, tudo na web são processos e etapas, é o tempo todo você falando com algo que não entende o seu idioma e nem a sua linha de raciocinio pictórica, ele é apenas linear e literal, preste atenção nisso! Se o computador não te entende nada acontece.</p>
+			</div>
+		</div>
+	</section>
+
+
+</body>
+</html>
